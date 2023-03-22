@@ -1,0 +1,84 @@
+:root {
+  --background-image: url('https://wallpaperaccess.com/full/204729.jpg');
+  --primary-color: #f44336;
+  --primary-hover-color: #ff8c7f;
+  --font-family: Arial, sans-serif;
+  }
+  
+  body {
+  background-image: var(--background-image);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: var(--font-family);
+  }
+  
+  header {
+  margin-top: 50px;
+  }
+  
+  h1 {
+  color: white;
+  text-align: center;
+  }
+  
+  img {
+  display: block;
+  margin: auto;
+  border: 5px solid white;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  margin-top: 50px;
+  }
+  
+  section {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  }
+  
+  form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  label {
+  font-size: 20px;
+  margin-bottom: 10px;
+  }
+  
+  input {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+  }
+  
+  button {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--primary-color);
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+  background-color: var(--primary-hover-color);
+  }
+  
+  .searchResult {
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px;
+  }
